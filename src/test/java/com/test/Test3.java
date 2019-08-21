@@ -30,6 +30,9 @@ public class Test3 {
 		Assert.fail("This test should be failed");
 	}
 
+	
+	
+	
 	@Test(dependsOnMethods = "example1")
 	public void skippedByDependencyTest() {
 
