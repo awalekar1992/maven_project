@@ -23,6 +23,10 @@ public class Test3 {
 	@Test
 	public void example4() {
 		Assert.fail("This test should be failed");
+		Assert.assertEquals(12, 12);
+		Assert.assertFalse(false,"This Test should be false");
+		Assert.fail("This test should be failed");
+		Assert.assertNotEquals(12, 14, "This test shoul be pass");
 	}
 
 	@Test
@@ -30,12 +34,17 @@ public class Test3 {
 		Assert.fail("This test should be failed");
 	}
 
-	
-	
-	
 	@Test(dependsOnMethods = "example1")
 	public void skippedByDependencyTest() {
 
 	}
 
+	@Test
+	public void example6() {
+	
+		Assert.assertNotEquals(12, 14, "This test shoul be pass");
+		
+	}
+
+	
 }

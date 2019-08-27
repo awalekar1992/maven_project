@@ -22,5 +22,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar Files/extentreports-2.40.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar Files/junit-4.12.jar" sourcepath="C:/Users/santosh.awalekar/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar Files/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
